@@ -1,6 +1,6 @@
 
 #p-contacto {
-    padding: 50px;
+    padding-top: 50px;
 }
 
 #p-contacto .container {
@@ -20,12 +20,10 @@
 
 
 #p-contacto .info-form p{
-    font-size: 17px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
 #p-contacto .info-form a{
-    font-size: 17px;
     display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -87,7 +85,7 @@
 @media screen and (max-width: 600px) {
     #p-contacto .container {
         grid-template-columns: 1fr;
-        padding: 15px;
+        padding: auto;
     }
 }
 
