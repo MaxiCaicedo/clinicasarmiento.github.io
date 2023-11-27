@@ -1,0 +1,225 @@
+@import url("variables.css");
+@import url("index.css");
+@import url("nosotros.css");
+@import url("equipo.css");
+@import url("obrasocial.css");
+@import url("formaparte.css");
+@import url("contacto.css");
+
+/* Tipografías
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Monserrat', sans-serif;
+    color: var(--color-brand);
+}
+
+/* Barra de Navegación */
+
+.navbar {
+    background-color: var(--color-heading);
+    padding: 15px;
+}
+
+.navbar .nav-link{
+    text-transform: uppercase;
+    color: var(--color-brand);
+}
+.navbar .nav-link:hover{
+    color: var(--color-base);
+}
+
+.navbar .nav-link .active{
+    color: var(--color-base);
+}
+
+.navbar .nav-link.active {
+    color: var(--color-base);
+}
+
+.dropdown-menu {
+    background-color: var(--color-heading);
+}
+
+.dropdown-menu .dropdown-item {
+    color: var(--color-brand);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: var(--color-base);
+    background-color: white;
+}
+
+.dropdown-menu .dropdown-item .active {
+    color: var(--color-base);
+}
+
+.dropdown-menu .dropdown-item.active {
+    color: var(--color-base);
+}
+
+/* Cuerpo de la pagina */
+
+main {
+    margin-top: 115px;
+}
+
+/* Footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height: 800px)
+{
+    footer{
+        position: static;
+    }
+    header{
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed{
+    background-color: #E3FCFF;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+    width: 30%;
+}
+
+.footer-distributed .footer-links{
+    color: #004952;   
+}
+
+.footer-distributed .footer-links a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color:#004952;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    color:#004952;
+    font-size: 25px ;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height:  42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #004952;
+    vertical-align: middle;
+    margin: 0;
+}
+.footer-distributed .footer-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+.footer-distributed .footer-center p a{
+    color: #004952;
+    text-decoration: none;
+}
+.footer-distributed .footer-right{
+    width: 30%;
+}
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color: #004952;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:#004952;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #E3FCFF;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #004952;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.footer-distributed .footer-icons a:hover{
+    background-color: #00BCD1;
+}
+.footer-links a:hover{
+    color: #00BCD1;
+}
+
+@media (max-width: 880px){
+    .footer-distributed .footer-links, .footer-distributed .footer-center, .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+}
+
+

@@ -1,0 +1,22 @@
+
+#p-obrasocial {
+    padding-top: 30px;
+}
+
+#p-obrasocial .contenedor-imagen {
+    max-width: 100%; /* Asegura que el contenedor no supere el ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+    overflow: hidden; /* Evita que la imagen se salga del contenedor en dispositivos pequeños */
+}
+
+#p-obrasocial img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
+    
+}
+
+#p-obrasocial h3 {
+    text-align: center;
+    margin: 15px 0;
+}
+

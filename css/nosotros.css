@@ -1,0 +1,104 @@
+#p-nosotros {
+    padding-top: 30px;
+}
+
+#p-nosotros .contenedor-imagen {
+    display: flex;
+    /* Activa el modelo de diseño flexbox */
+    justify-content: center;
+    /* Centra horizontalmente el contenido */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    /* height: 100vh; */
+    /* Ajusta la altura al 100% de la ventana gráfica */
+}
+
+#p-nosotros h3 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+#p-nosotros .contenedor-imagen img {
+    max-width: 100%;
+    /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-height: 100%;
+    /* Asegura que la imagen no exceda la altura del contenedor */
+}
+
+#p-nosotros .imagen-hover {
+    transition: transform 0.5s ease;
+    /* Agrega una transición para suavizar el cambio de tamaño al pasar el mouse */
+}
+
+#p-nosotros .imagen-hover:hover {
+    /* Estilos al pasar el mouse */
+    transform: scale(1.1);
+    /* Escala la imagen al 110% al pasar el mouse por encima */
+    /* Otros estilos al pasar el mouse */
+}
+
+
+#p-nosotros .texto {
+    background-color: var(--color-base);
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#p-nosotros .texto h2, #p-nosotros .texto h4 {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+#p-nosotros .centered-text {
+    max-width: 1000px;
+    font-size: 19px;
+    margin: auto
+    /* Ajusta el ancho máximo según tus necesidades */
+}
+
+#p-nosotros .about-section {
+    padding: 40px;
+    text-align: center;
+}
+
+#p-nosotros .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    /* Ajusta el ancho máximo según tus necesidades */
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: solid 3px var(--color-brand);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    /* margin-top: 100px;
+    margin-bottom: 80px; */
+}
+
+#p-nosotros .icon {
+    font-size: 80px;
+    /* Ajusta el tamaño según tus necesidades */
+    color: var(--color-brand);
+}
+
+#p-nosotros .card:hover {
+    transform: scale(1.05);
+    background-color: var(--color-heading);
+}
+
+#p-nosotros .card img {
+    width: 100%;
+    height: auto;
+}
+
+#p-nosotros .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

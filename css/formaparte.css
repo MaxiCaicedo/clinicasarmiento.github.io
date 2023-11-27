@@ -1,0 +1,41 @@
+#p-formaparte {
+    padding-top: 90px;
+}
+
+#p-formaparte .form-control {
+    background-color: var(--color-heading);
+    border-color: var(--color-base);
+    color: var(--color-brand);
+}
+
+#p-formaparte .form-control:focus{
+    border-color: var(--color-brand);
+    background-color: white;
+    box-shadow: none;
+}
+
+#p-formaparte .form-control::placeholder{
+    color: var(--color-brand);
+}
+
+#p-formaparte input.form-control{
+    height: 44px;
+}
+
+#p-formaparte .btn {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+#p-formaparte .btn-brand {
+    background-color: var(--color-base);
+    border-color: var(--color-base2);
+    color: var(--color-heading);
+}
+
+#p-formaparte .btn-brand:hover,
+#p-formaparte .btn-brand:focus {
+    background-color: var(--color-heading);
+    color: var(--color-base);
+    border-color: var(--color-brand);
+}

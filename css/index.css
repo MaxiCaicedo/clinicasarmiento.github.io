@@ -1,0 +1,128 @@
+#img-logo-clinica .card .card-img-overlay {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 45%;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+.card-img-overlay img {
+    align-self: center;
+}
+
+@media (max-width: 880px) {
+    #img-logo-clinica .card .card-img-overlay {
+        width: 60%;
+        margin: auto
+    }
+
+    .card-img-overlay p, 
+    .card-img-overlay h6 {
+        display: none;
+    }
+}
+
+#nosotros .btn {
+    padding: 12px 28px;
+}
+
+#nosotros .btn-primary {
+    border-radius: 30px;
+    background-color: var(--color-base);
+    border-color: var(--color-base2);
+    color: var(--color-heading);
+}
+
+#nosotros .btn-primary:hover,
+#nosotros .btn-primary:focus {
+    background-color: var(--color-heading);
+    color: var(--color-base);
+    border-color: var(--color-brand);
+}
+
+#estudios {
+    background-color: var(--color-base2);
+}
+
+#estudios h5, #estudios h3, #estudios p {
+    color: white;
+}
+
+#estudios .btn {
+    padding: 12px 28px;
+}
+
+#estudios .btn-primary {
+    border-radius: 30px;
+    background-color: var(--color-heading);
+    color: var(--color-base);
+    border-color: var(--color-brand);
+    
+}
+
+#estudios .btn-primary:hover,
+#estudios .btn-primary:focus {
+    background-color: var(--color-base);
+    border-color: var(--color-base2);
+    color: var(--color-heading);
+}
+
+#doctores {
+    padding: 20px;
+    background-image: url(../img/fondo-verde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#doctores h3{
+    text-align: center;
+    margin: 15px 0;
+}
+
+#doctores .card {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border: solid 4px;
+    border-radius: 15px;
+    border-color: var(--color-brand);
+}
+
+#doctores .btn {
+    padding: 12px 28px;
+}
+
+#doctores .btn-primary {
+    border-radius: 30px;
+    background-color: var(--color-base);
+    border-color: var(--color-base2);
+    color: var(--color-heading);
+}
+
+#doctores .btn-primary:hover,
+#doctores .btn-primary:focus {
+    background-color: var(--color-heading);
+    color: var(--color-base);
+    border-color: var(--color-brand);
+}
+
+#contacto-fparte .btn {
+    padding: 12px 28px;
+}
+
+#contacto-fparte .btn-primary {
+    border-radius: 30px;
+    background-color: var(--color-base);
+    border-color: var(--color-base2);
+    color: var(--color-heading);
+}
+
+#contacto-fparte .btn-primary:hover,
+#contacto-fparte .btn-primary:focus {
+    background-color: var(--color-heading);
+    color: var(--color-base);
+    border-color: var(--color-brand);
+}
+
+
