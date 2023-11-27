@@ -5,6 +5,7 @@
 @import url("obrasocial.css");
 @import url("formaparte.css");
 @import url("contacto.css");
+@import url("estudios.css");
 
 /* Tipografías
 font-family: 'Montserrat', sans-serif;
@@ -20,12 +21,18 @@ font-family: 'Roboto', sans-serif;
 body {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    font-size: 17px;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Monserrat', sans-serif;
     color: var(--color-brand);
 }
+
+h1, h2 {
+    font-size: 32px;
+}
+
 
 /* Barra de Navegación */
 
