@@ -2,13 +2,6 @@
     padding: 30px;
 }
 
-/* #p-equipo p{
-    font-family: 'Roboto', sans-serif;
-}
-#p-equipo h5{
-    font-family: 'Montserrat', sans-serif; */
-/* } */
-
 #p-equipo h3{
     text-align: center;
     margin: 15px 0;
@@ -37,4 +30,44 @@
     transform: scale(1.1);
     /* Escala la imagen al 110% al pasar el mouse por encima */
     /* Otros estilos al pasar el mouse */
+}
+
+#p-equipo .card-body {
+    text-align: center;
+}
+
+#p-equipo .btn {
+    padding: 12px 28px;
+}
+
+#p-equipo .btn-primary {
+    border-radius: 30px;
+    background-color: var(--color-base);
+    border-color: var(--color-base2);
+    color: var(--color-heading);
+}
+
+#p-equipo .btn-primary:hover,
+#p-equipo .btn-primary:focus {
+    background-color: var(--color-heading);
+    color: var(--color-base);
+    border-color: var(--color-brand);
+}
+
+#p-equipo .btn-secondary {
+    border-radius: 30px;
+    background-color: var(--color-base);
+    border-color: var(--color-base2);
+    color: var(--color-heading);
+}
+
+#p-equipo .btn-secondary:hover,
+#p-equipo .btn-secondary:focus {
+    background-color: var(--color-heading);
+    color: var(--color-base);
+    border-color: var(--color-brand);
+}
+
+#p-equipo .card-footer {
+    padding: 20px 0;
 }

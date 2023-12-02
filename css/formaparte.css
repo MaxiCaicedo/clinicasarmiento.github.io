@@ -1,5 +1,5 @@
 #p-formaparte {
-    padding-top: 90px;
+    padding: 50px 30px;
 }
 
 #p-formaparte .form-control {
@@ -37,5 +37,26 @@
 #p-formaparte .btn-brand:focus {
     background-color: var(--color-heading);
     color: var(--color-base);
+    border-color: var(--color-brand);
+}
+
+.file input{
+    display: none;
+}
+
+.file label{
+    display: block;
+    padding: 8px 21px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: var(--color-base);
+    border-color: var(--color-base2);
+    color: var(--color-heading);
+    border-radius: 3px;
+}
+
+.file label:hover {
+    background-color: var(--color-heading);
+    color: var(--color-brand);
     border-color: var(--color-brand);
 }

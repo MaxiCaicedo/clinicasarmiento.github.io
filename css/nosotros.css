@@ -1,5 +1,5 @@
 #p-nosotros {
-    padding-top: 30px;
+    padding: 30px 0;
 }
 
 #p-nosotros .contenedor-imagen {
@@ -9,8 +9,6 @@
     /* Centra horizontalmente el contenido */
     align-items: center;
     /* Centra verticalmente el contenido */
-    /* height: 100vh; */
-    /* Ajusta la altura al 100% de la ventana gráfica */
 }
 
 #p-nosotros h3 {
@@ -42,7 +40,7 @@
     background-color: var(--color-base);
     color: white;
     padding: 20px;
-    margin: 20px 0;
+    margin: 70px 0 20px 0;
 }
 
 #p-nosotros .texto h2, #p-nosotros .texto h4 {
@@ -59,17 +57,16 @@
 }
 
 #p-nosotros .about-section {
-    padding: 40px;
-    text-align: center;
+    padding: 30px;
 }
 
 #p-nosotros .card {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 100%;
     max-width: 300px;
     padding: 10px;
+    margin: 10px 0;
     /* Ajusta el ancho máximo según tus necesidades */
     margin: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -77,12 +74,10 @@
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s;
-    /* margin-top: 100px;
-    margin-bottom: 80px; */
-}
+} 
 
 #p-nosotros .icon {
-    font-size: 80px;
+    font-size: 60px;
     /* Ajusta el tamaño según tus necesidades */
     color: var(--color-brand);
 }

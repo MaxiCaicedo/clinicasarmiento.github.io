@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica de Ojos Sarmiento</title>
+    <link rel="shortcut icon" href="img/img-ojo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
@@ -51,7 +52,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center" data-aos="fade-up">
                     <div class="col-lg-8 pb-4" data-aos="fade-up">
-                        <h3 class="display-5">Trabaja <b>Con Nosotros</b></h3>
+                        <h3 class="display-5">Trabaja <b class="fw-bold">Con Nosotros</b></h3>
                         <br><br>
                         <h5>Buscamos nuevos compañeros ¡SUMATE AL EQUIPO!</h5>
                     </div>
@@ -66,8 +67,12 @@
                             <div class="form-group col-md-6">
                                 <input type="number" class="form-control" placeholder="Teléfono*">
                             </div>
-                            <div class="form-group col-md-6 d-flex align-items-lg-center">
-                                <input type="file">
+                            <div id="nombre" class="form-group col-md-6 d-flex align-items-lg-center">
+                                <div class="file">
+                                    <label for="archivo">Elige un archivo</label>
+                                    <input type="file" id="archivo">
+                                    <h6 id="nombre"></h6>
+                                </div>
                             </div>
                             <div class="form-group col-12 d-grid">
                                 <button class="btn btn-brand">Cargar CV</button>
@@ -123,7 +128,15 @@
             </div>
         </div>
     </footer>
-
+    <script type="text/javascript">
+        
+        let archivo = document.querySelector('#archivo');
+        archivo.addEventListener('change', () => {
+            let nombreElemento = document.querySelector('#nombre');
+            nombreElemento.innerText = archivo.files[0].name;
+            nombreElemento.style.textAlign = 'left';  // Alinea el texto a la izquierda
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
