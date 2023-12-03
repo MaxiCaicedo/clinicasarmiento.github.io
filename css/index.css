@@ -10,26 +10,27 @@
 }
 
 
-.card-img-overlay h1 {
-    text-align: center;
-}
-
 .card-img-overlay h5 {
     text-transform: uppercase;
 }
 
 @media (max-width: 920px) {
     #img-logo-clinica .card .card-img-overlay {
-        width: fit-content;
-        padding: 2%;
+        padding: 1%;
+        border-radius: 10px;
         margin-left: auto;
         margin-top: auto;
         margin-right: auto;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     .card-img-overlay p {
         display: none;
+    }
+
+    .card-img-overlay h5, 
+    .card-img-overlay h3 {
+        font-size: small;
     }
 }
 
