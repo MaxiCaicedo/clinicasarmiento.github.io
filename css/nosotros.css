@@ -92,6 +92,23 @@
     height: auto;
 }
 
+@media (max-width: 920px) {
+    #p-nosotros .card p, #p-nosotros .card h2 {
+        font-size: medium;
+    }
+
+    #p-nosotros .card h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 300px) {
+    #p-nosotros .card p, #p-nosotros .card h2 {
+        font-size: small;
+    }
+}
+
 #p-nosotros .container-fluid {
     display: flex;
     flex-wrap: wrap;
